@@ -1,0 +1,1461 @@
+@font-face {
+    font-family: 'GothamPro';
+    src: url(./fonts/GothamPro.eot) format('eot'),
+        url(./fonts/GothamPro.ttf) format('ttf'),
+        url(./fonts/GothamPro.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'GothamProMedium';
+    src: url(./fonts/GothamPro-Medium.eot) format('eot'),
+        url(./fonts/GothamPro-Medium.ttf) format('ttf'),
+        url(./fonts/GothamPro-Medium.woff) format('woff');
+}
+
+body,
+html {
+    margin: 0;
+}
+
+.content {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.mainPage header .wrapper {
+    background: #ffffff;
+}
+
+.mainPage header .content {
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    position: relative;
+}
+
+.menu_button {
+    display: none;
+}
+
+.mainPage header {
+    font-size: 17px;
+    font-family: GothamPro;
+}
+
+.enter {
+    border: none;
+    background: #ffffff;
+    width: 98px;
+    height: 36px;
+    padding: 0;
+    margin-top: 14px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.enter:hover {
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.mainPage header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 479px;
+    margin-left: -16px;
+    margin-top: 21px;
+}
+
+.mainPage header span {
+    font-family: GothamPro;
+    font-size: 17px;
+    color: #008c5a;
+    margin-left: 25px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.mainPage a {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.mainPage .main {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.mainPage a:hover {
+    color: #000000;
+    text-decoration: underline;
+    transition: 0.3ms;
+}
+
+.mainPage main .firstPart .wrapper {
+    height: 720px;
+    width: auto;
+    background: url(../images/Slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+.mainPage main .secondPart .wrapper {
+    overflow: hidden;
+    background: url(../images/Fon.jpg);
+}
+
+.mainPage main .secondPart .content {
+    height: 765px;
+    margin-top: -3px;
+}
+
+.secondPart .bold {
+    width: 1103px;
+    text-align: center;
+    font-family: GothamProMedium;
+    font-size: 22px;
+    margin-top: 0;
+    padding-top: 32px;
+}
+
+.secondPart .regular {
+    text-align: center;
+    font-family: GothamPro;
+    font-size: 22px;
+    margin-top: -8px;
+}
+
+.secondPart .regular a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.secondPart .grunge {
+    margin-left: -107px;
+    margin-top: 10px;
+}
+
+.secondPart .text {
+    font-family: GothamProMedium;
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -223px;
+}
+
+.secondPart .prizes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9px;
+}
+
+.secondPart .prizes p {
+    font-family: GothamProMedium;
+    font-size: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.mainPage .bikeImg {
+    width: 266px;
+    height: 223px;
+    background: url(../images/Bike.png) no-repeat;
+    margin-left: 26px;
+}
+
+.mainPage .trackerImg {
+    width: 222px;
+    height: 222px;
+    background: url(../images/Tracker.png) no-repeat;
+    margin-left: 8px;
+}
+
+.mainPage .phonesImg {
+    width: 222px;
+    height: 222px;
+    background: url(../images/Phones.png) no-repeat;
+    margin-left: 45px;
+}
+
+.mainPage .pizzasImg {
+    width: 317px;
+    height: 224px;
+    background: url(../images/Pizzas.png) no-repeat;
+    margin-left: 25px;
+}
+
+.mainPage .bike p {
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.mainPage .tracker p {
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.mainPage .phones p {
+    margin-top: 25px;
+    margin-left: 43px;
+}
+
+.mainPage .pizzas p {
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.mainPage footer .wrapper {
+    background: #bebebe;
+}
+
+.mainPage footer .content {
+    height: 61px;
+    margin-top: -4px;
+}
+
+.mainPage footer a {
+    font-family: GothamPro;
+    font-size: 17px;
+    color: #000000;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 471px;
+    margin-left: 317px;
+    padding-top: 20px;
+}
+
+.head-auth-form {
+    top: 70px;
+    right: 28px;
+    width: 377px;
+    padding: 16px 21px 20px 27px;
+}
+.head-registration-form {
+    padding: 16px 21px 20px 27px;
+    top: 70px;
+}
+.hf-top-line {
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.hf-title {
+    font-size: 20.78px;
+    padding-left: 8px;
+    line-height: 28px;
+}
+.hf-close {
+    font-size: 14.34px;
+    top: 4px;
+    right: 9px;
+}
+.hf-close:before {
+    zoom: 0.75;
+    left: 8px;
+    margin-top: -9px;
+    width: 21px;
+}
+.head-form-area {
+    width: 278px;
+    height: 25px;
+    font-size: 12.55px;
+}
+.head-registration-area {
+    height: 25px;
+    font-size: 12.55px;
+}
+.head-form-label {
+    font-size: 12px;
+    height: 25px;
+    width: 50px;
+    line-height: 25px;
+    /*padding-left: 5px;*/
+}
+.requare-areas-text {
+    /*font-size: 17.29px;*/
+}
+.head-registration-label {
+    /*font-size: 17.29px;*/
+    height: 25px;
+    padding-left: 5px;
+    min-width: 100px;
+}
+.auth-form-line {
+    height: 25px;
+    margin-bottom: 13px;
+}
+.head-form-btn {
+    /*	width: 98px;
+	height: 36px;
+    font-size: 22.61px;
+    line-height: 36px;*/
+}
+/*.head-registration-btn{
+	width: 300px;
+	height: 36px;
+    font-size: 22.61px;
+    line-height: 36px;
+}
+*/
+
+.personal-page-table {
+    font-size: 12px;
+}
+
+*::-webkit-input-placeholder {
+    font-size: 12.55px;
+    color: #a9a9a9;
+    font-family: 'pfdintextcomppro_regular', 'open_sansregular', sans-serif;
+}
+*::-moz-placeholder {
+    /* FF 4-18 */
+    font-size: 12.55px;
+    color: #a9a9a9;
+    font-family: 'pfdintextcomppro_regular', 'open_sansregular', sans-serif;
+}
+*:-moz-placeholder {
+    /* FF 19+ */
+    font-size: 12.55px;
+    color: #a9a9a9;
+    font-family: 'pfdintextcomppro_regular', 'open_sansregular', sans-serif;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 12.55px;
+    color: #a9a9a9;
+    font-family: 'pfdintextcomppro_regular', 'open_sansregular', sans-serif;
+}
+
+.head-auth-form {
+    width: 520px;
+    background-color: #fff; /*rgba(0,0,0,0.85);*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+    position: absolute;
+    top: 99px;
+    right: 25px;
+    padding: 25px 29px 33px 36px;
+    display: none;
+    text-align: left;
+    line-height: 1.22;
+    z-index: 9;
+}
+.head-auth-form.active {
+    display: block;
+}
+.hf-top-line {
+    border-bottom: 2px solid #fff;
+    height: 38px;
+    margin-bottom: 21px;
+}
+.hf-title {
+    font-size: 28px;
+    font-family: 'GothamPro';
+    text-transform: uppercase;
+    padding-left: 12px;
+    line-height: 32px;
+    color: #70544f;
+}
+.hf-close {
+    font-family: 'GothamPro';
+    font-size: 19.78px;
+    padding-left: 30px;
+    float: right;
+    position: relative;
+    top: 2px;
+    right: 12px;
+    color: #40a684;
+}
+
+.mainPage header .hf-close span {
+    font-family: GothamPro;
+    font-size: 15px;
+    color: #008c5a;
+    margin-left: 25px;
+    position: absolute;
+    top: 10px;
+    left: 33px;
+}
+
+.hf-close:before {
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -10px;
+}
+.auth-form-line {
+    height: 35px;
+    margin-bottom: 17px;
+}
+.head-form-label {
+    font-family: 'GothamPro';
+    font-size: 14px;
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height: 37px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding-left: 12px;*/
+}
+.head-form-area {
+    width: 383px;
+    height: 50px;
+    background-color: #eeeeee;
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+    font-family: 'GothamPro';
+    padding: 0px 5px;
+    display: inline-block;
+    float: right;
+
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.head-form-area.error {
+    border: 1px solid #ff0000;
+    background: #ffdddd;
+}
+.head-form-btn {
+    width: 134px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    margin: 0px auto;
+    border: 0px;
+    background-color: #40a684; /*background: url('/bitrix/templates/template/assets/css/../images/head-form-btn.png');*/
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'GothamPro';
+    cursor: pointer;
+    background-size: 100% 100%;
+    display: block;
+}
+.head-registration-form {
+    width: 420px;
+    margin: 0 auto;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+    position: absolute;
+    top: 89px;
+    padding: 25px 29px 33px 36px;
+    line-height: 1;
+    text-align: left;
+    display: none;
+    z-index: 9;
+    right: 0;
+}
+.head-registration-form.active {
+    display: block;
+}
+.head-registration-label {
+    font-family: 'GothamPro';
+    font-size: 14px;
+    display: inline-block;
+    width: 20%;
+    height: 35px;
+    line-height: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 12px;
+    min-width: 129px;
+    cursor: pointer;
+    /*margin-top: 8px;*/
+}
+
+.head-registration-label a {
+    color: #fff;
+    text-decoration: underline;
+}
+.head-registration-area {
+    width: 63%;
+    height: 35px;
+    background-color: #eeeeee;
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 17.29px;
+    font-family: 'GothamPro';
+    padding: 0px 5px;
+    display: inline-block;
+    float: right;
+}
+
+.mainPage header span.hf-title {
+    font-family: GothamPro;
+    font-size: 14px;
+    color: #008c5a;
+    margin-left: 25px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.head-registration-btn {
+    width: 320px;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    margin: 0px auto;
+    border: 0px;
+    background-color: #40a684;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'GothamPro';
+    cursor: pointer;
+    background-size: 100% 100%;
+    display: block;
+}
+.requare-areas-text {
+    text-align: right;
+    font-family: 'GothamPro';
+    font-size: 14px;
+    margin-bottom: 30px !important;
+}
+.requare-areas-text2 input {
+    background: #fff;
+    vertical-align: top;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+.requare-areas-text2 {
+    font-family: 'GothamPro';
+    font-size: 12px;
+    /*padding-left: 201px;*/
+    margin-bottom: 5px;
+    line-height: 19px;
+}
+.requare-areas-text2 a {
+    color: #40a684;
+    text-decoration: underline;
+}
+.requare-areas-text2 a:hover {
+    text-decoration: none;
+}
+
+.eventPage .wrapper,
+.prizesPage .wrapper,
+.rulesPage .wrapper {
+    background: #e5e5e5;
+}
+
+.eventPage__head,
+.prizesPage__head,
+.rulesPage__head {
+    font-family: GothamPro;
+    font-size: 27px;
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.eventPage__header,
+.prizesPage__header,
+.rulesPage__header {
+    font-family: GothamProMedium;
+    font-size: 28px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.eventPage__text,
+.prizesPage__text,
+.rulesPage__text {
+    font-family: GothamPro;
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 1.22;
+    width: 979px;
+    margin-left: 45px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.prizesPage .md,
+.prizesPage .sm {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+    .content {
+        width: 768px;
+    }
+
+    .secondPart .bold {
+        width: 768px;
+    }
+
+    .secondPart .grunge {
+        margin-left: 0;
+        width: 759px;
+        margin-top: 23px;
+    }
+
+    .secondPart .text {
+        font-size: 32px;
+        margin-top: -132px;
+    }
+
+    .mainPage .bikeImg {
+        width: 171px;
+        height: 144px;
+        background: url(../images/Bike768.png) no-repeat;
+        margin-left: 45px;
+    }
+
+    .mainPage .trackerImg {
+        width: 143px;
+        height: 143px;
+        background: url(../images/Tracker768.png) no-repeat;
+        margin-left: 8px;
+    }
+
+    .mainPage .phonesImg {
+        width: 143px;
+        height: 143px;
+        background: url(../images/Phones768.png) no-repeat;
+        margin-left: 27px;
+    }
+
+    .mainPage .pizzasImg {
+        width: 204px;
+        height: 144px;
+        background: url(../images/Pizzas768.png) no-repeat;
+        margin-left: 25px;
+    }
+
+    footer nav {
+        width: 305px;
+        margin-left: 232px;
+        padding-top: 13px;
+    }
+
+    .mainPage footer a {
+        font-size: 11px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 34px;
+    }
+
+    .logo {
+        margin-left: 38px;
+    }
+
+    .mainPage header .content {
+        height: 56px;
+    }
+
+    .mainPage header nav {
+        width: 306px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    .mainPage header nav a {
+        font-size: 11px;
+    }
+
+    .enter img {
+        width: 62px;
+        height: 23px;
+    }
+
+    .mainPage header .enter span {
+        font-size: 11px;
+        top: 10px;
+        left: 15px;
+    }
+
+    .enter {
+        margin-top: 5px;
+        margin-right: 22px;
+    }
+
+    .mainPage main .firstPart .wrapper {
+        background: url(../images/Slide768.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top;
+        background-size: cover;
+        height: 392px;
+    }
+
+    .secondPart .bold {
+        font-size: 14px;
+        margin-top: 0;
+        padding-top: 29px;
+    }
+
+    .secondPart .regular {
+        font-size: 14px;
+        margin-top: -6px;
+    }
+
+    .secondPart .prizes {
+        padding-top: 38px;
+    }
+
+    main .secondPart .prizes p {
+        font-size: 14px;
+    }
+
+    .mainPage .bike p {
+        margin-top: 15px;
+        margin-left: 26px;
+    }
+
+    .mainPage .tracker p {
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+
+    .mainPage .phones p {
+        margin-top: 15px;
+        margin-left: 24px;
+    }
+
+    .mainPage .pizzas p {
+        margin-top: 15px;
+        margin-left: -23px;
+    }
+
+    .mainPage main .secondPart .content {
+        height: 564px;
+    }
+
+    .head-registration-form {
+        width: 390px;
+        top: 59px;
+        padding: 10px 30px 1px 29px;
+        overflow: auto;
+    }
+
+    .head-registration-btn {
+        width: 316px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #40a684;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .mainPage header span {
+        font-size: 12px;
+    }
+
+    .mainPage header .hf-close span {
+        font-family: GothamPro;
+        font-size: 9px;
+        color: #008c5a;
+        margin-left: 25px;
+        position: absolute;
+        top: 7px;
+        left: 25px;
+    }
+    .hf-close img {
+        width: 62px;
+        height: 23px;
+    }
+
+    .head-registration-label {
+        font-size: 12px;
+        height: 0;
+    }
+
+    .requare-areas-text {
+        font-size: 12px;
+    }
+
+    .eventPage__head,
+    .prizesPage__head,
+    .rulesPage__head {
+        font-size: 18px;
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+
+    .eventPage__header,
+    .prizesPage__header,
+    .rulesPage__header {
+        font-size: 20px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .eventPage__text,
+    .prizesPage__text,
+    .rulesPage__text {
+        font-family: GothamPro;
+        font-size: 14px;
+        padding-top: 30px;
+        line-height: 1.22;
+        width: 700px;
+        margin-left: 45px;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+
+    .eventPag .content,
+    .prizesPage .content,
+    .rulesPage .content {
+        width: 768px;
+    }
+
+    .prizesPage .sm,
+    .prizesPage .lg {
+        display: none;
+    }
+
+    .prizesPage .md {
+        display: block;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 767px) {
+    footer {
+        /* display: none; */
+        width: 375px;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+        height: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .mainPage footer a {
+        font-size: 12px;
+    }
+
+    .mainPage header nav {
+        display: none;
+        position: fixed;
+        width: 86px;
+        top: -21px;
+        left: 16px;
+        height: calc(100vh - 129px);
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 79px 15px 50px 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: 0.3s;
+    }
+
+    .content {
+        width: 375px;
+    }
+
+    .mainPage main .firstPart .wrapper {
+        background-image: url(../images/05.png);
+    }
+
+    .secondPart .bold {
+        width: 220px;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        padding-top: 20px;
+    }
+
+    .secondPart .regular {
+        font-size: 13px;
+    }
+
+    .prizesPage .md,
+    .prizesPage .lg {
+        display: none;
+    }
+
+    .prizesPage .sm {
+        display: block;
+        max-width: 375px;
+    }
+
+    .eventPag .content,
+    .prizesPage .content,
+    .rulesPage .content {
+        width: 375px;
+    }
+
+    .head-registration-form {
+        width: 375px;
+        top: 59px;
+        padding: 10px 30px 1px 29px;
+        height: calc(100vh - 59px);
+        overflow: auto;
+        margin-left: -18px;
+    }
+    .head-registration-area {
+        width: 62%;
+        height: 35px;
+        background-color: #eeeeee;
+        border: 1px solid #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #333;
+        font-size: 13px;
+        font-family: 'GothamPro';
+        padding: 0px 5px;
+        display: inline-block;
+        float: right;
+    }
+
+    .head-registration-btn {
+        width: 310px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .secondPart .grunge {
+        display: none;
+    }
+
+    .secondPart .text {
+        font-size: 17px;
+        width: 375px;
+        height: 97px;
+        background: url(../images/06.png) no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 22px;
+    }
+
+    .secondPart .prizes {
+        width: 330px;
+        flex-wrap: wrap;
+        padding: 0 11px 0 34px;
+    }
+
+    .mainPage main .firstPart .wrapper {
+        height: 450px;
+    }
+
+    .mainPage main .firstPart .wrapper::after {
+        content: '';
+        margin: 0 auto;
+        display: block;
+        width: 375px;
+        height: 259px;
+        background: url(../images/04.png) no-repeat;
+        background-position: center;
+    }
+
+    .mainPage main .secondPart .content {
+        height: 675px;
+    }
+
+    .mainPage .bikeImg {
+        width: 158px;
+        height: 140px;
+        background: url(../images/07.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .trackerImg {
+        width: 153px;
+        height: 140px;
+        background: url(../images/08.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .phonesImg {
+        width: 153px;
+        height: 140px;
+        background: url(../images/09.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .pizzasImg {
+        width: 169px;
+        height: 140px;
+        background: url(../images/10.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .bike p {
+        margin-top: 14px;
+        margin-left: -23px;
+        font-size: 13px;
+    }
+
+    .mainPage .tracker p {
+        margin-top: 14px;
+        margin-left: -9px;
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+
+    .mainPage .phones p {
+        margin-top: 13px;
+        margin-left: -17px;
+        font-size: 13px;
+    }
+
+    .mainPage .pizzas p {
+        margin-top: 13px;
+        margin-left: 6px;
+        font-size: 13px;
+    }
+
+    .mainPage header .content {
+        height: 62px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 18px;
+        width: 339px;
+    }
+
+    .enter {
+        transform: scale(0.8);
+        margin: 0;
+        margin-right: -10px;
+    }
+
+    .mainPage .logo img {
+        width: 77px;
+        margin-left: 58px;
+    }
+
+    .menu_button {
+        display: block;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .mainPage header nav.opened {
+        display: flex;
+        z-index: 999;
+    }
+
+    .mainPage header nav a,
+    .mainPage header nav a.main {
+        font-size: 17px;
+        color: white;
+        padding-bottom: 21px;
+    }
+
+    .mainPage header .hf-close span {
+        font-family: GothamPro;
+        font-size: 13px;
+        color: #008c5a;
+        margin-left: 29px;
+        position: absolute;
+        top: 10px;
+        left: 33px;
+    }
+
+    .mainPage header span.hf-title {
+        font-family: GothamPro;
+        font-size: 12px;
+        color: #008c5a;
+        margin-left: 25px;
+        position: absolute;
+        top: 8px;
+        left: 0;
+    }
+
+    .head-registration-label {
+        font-family: 'GothamPro';
+        font-size: 11px;
+        display: inline-block;
+        width: 5%;
+        height: 35px;
+        line-height: 1;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 12px;
+        min-width: 100px;
+        cursor: pointer;
+        /* margin-top: 8px; */
+    }
+    .requare-areas-text {
+        text-align: right;
+        font-family: 'GothamPro';
+        font-size: 11px;
+        margin-bottom: 30px !important;
+    }
+
+    .eventPag .content,
+    .prizesPage .content,
+    .rulesPage .content {
+        width: 375px;
+    }
+
+    .eventPage__text,
+    .prizesPage__text,
+    .rulesPage__text {
+        width: 355px;
+        font-size: 12px;
+        margin-left: 18px;
+    }
+
+    .eventPage__head,
+    .prizesPage__head,
+    .rulesPage__head {
+        font-size: 16px;
+    }
+
+    .eventPage__header,
+    .prizesPage__header,
+    .rulesPage__header {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 374px) {
+    footer {
+        /* display: none; */
+        width: 320px;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+        height: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .mainPage footer a {
+        font-size: 12px;
+    }
+
+    .mainPage header nav {
+        display: none;
+        position: fixed;
+        width: 86px;
+        top: -21px;
+        left: 16px;
+        height: calc(100vh - 129px);
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 79px 15px 50px 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: 0.3s;
+    }
+
+    .content {
+        width: 320px;
+    }
+
+    .mainPage main .firstPart .wrapper {
+        background-image: url(../images/05.png);
+    }
+
+    .secondPart .bold {
+        width: 220px;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        padding-top: 20px;
+    }
+
+    .secondPart .regular {
+        font-size: 13px;
+    }
+
+    .prizesPage .md,
+    .prizesPage .lg {
+        display: none;
+    }
+
+    .prizesPage .sm {
+        display: block;
+        max-width: 375px;
+    }
+
+    .eventPag .content,
+    .prizesPage .content,
+    .rulesPage .content {
+        width: 375px;
+    }
+
+    .head-registration-form {
+        width: 320px;
+        top: 59px;
+        padding: 10px 30px 1px 29px;
+        height: calc(100vh - 59px);
+        overflow: auto;
+        margin-left: -18px;
+    }
+    .head-registration-area {
+        width: 62%;
+        height: 35px;
+        background-color: #eeeeee;
+        border: 1px solid #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #333;
+        font-size: 13px;
+        font-family: 'GothamPro';
+        padding: 0px 5px;
+        display: inline-block;
+        float: right;
+    }
+
+    .head-registration-btn {
+        width: 255px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .secondPart .grunge {
+        display: none;
+    }
+
+    .secondPart .text {
+        font-size: 17px;
+        width: 320px;
+        height: 97px;
+        background: url(../images/06.png) no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 22px;
+    }
+
+    .secondPart .prizes {
+        width: 330px;
+        flex-wrap: wrap;
+        padding: 0 11px 0 0px;
+    }
+
+    .mainPage main .firstPart .wrapper {
+        height: 450px;
+    }
+
+    .mainPage main .firstPart .wrapper::after {
+        content: '';
+        margin: 0 auto;
+        display: block;
+        width: 320px;
+        height: 259px;
+        background: url(../images/04.png) no-repeat;
+        background-position: center;
+    }
+
+    .mainPage main .secondPart .content {
+        height: 675px;
+    }
+
+    .mainPage .bikeImg {
+        width: 158px;
+        height: 140px;
+        background: url(../images/07.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .trackerImg {
+        width: 153px;
+        height: 140px;
+        background: url(../images/08.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .phonesImg {
+        width: 153px;
+        height: 140px;
+        background: url(../images/09.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .pizzasImg {
+        width: 169px;
+        height: 140px;
+        background: url(../images/10.png) no-repeat;
+        margin-left: 0;
+    }
+
+    .mainPage .bike p {
+        margin-top: 14px;
+        margin-left: -23px;
+        font-size: 13px;
+    }
+
+    .mainPage .tracker p {
+        margin-top: 14px;
+        margin-left: -9px;
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+
+    .mainPage .phones p {
+        margin-top: 13px;
+        margin-left: -17px;
+        font-size: 13px;
+    }
+
+    .mainPage .pizzas p {
+        margin-top: 13px;
+        margin-left: 6px;
+        font-size: 13px;
+    }
+
+    .mainPage header .content {
+        height: 62px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 18px;
+        width: 284px;
+    }
+
+    .enter {
+        transform: scale(0.8);
+        margin: 0;
+        margin-right: -10px;
+    }
+
+    .mainPage .logo img {
+        width: 77px;
+        margin-left: 58px;
+    }
+
+    .menu_button {
+        display: block;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .mainPage header nav.opened {
+        display: flex;
+        z-index: 999;
+    }
+
+    .mainPage header nav a,
+    .mainPage header nav a.main {
+        font-size: 17px;
+        color: white;
+        padding-bottom: 21px;
+    }
+
+    .mainPage header .hf-close span {
+        font-family: GothamPro;
+        font-size: 13px;
+        color: #008c5a;
+        margin-left: 29px;
+        position: absolute;
+        top: 10px;
+        left: 33px;
+    }
+
+    .mainPage header span.hf-title {
+        font-family: GothamPro;
+        font-size: 9px;
+        color: #008c5a;
+        margin-left: 25px;
+        position: absolute;
+        top: 8px;
+        left: 0;
+    }
+
+    .head-registration-label {
+        font-family: 'GothamPro';
+        font-size: 11px;
+        display: inline-block;
+        width: 5%;
+        height: 35px;
+        line-height: 1;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 12px;
+        min-width: 97px;
+        cursor: pointer;
+        /* margin-top: 8px; */
+    }
+    .requare-areas-text {
+        text-align: right;
+        font-family: 'GothamPro';
+        font-size: 11px;
+        margin-bottom: 30px !important;
+    }
+
+    .eventPag .content,
+    .prizesPage .content,
+    .rulesPage .content {
+        width: 320px;
+    }
+
+    .eventPage__text,
+    .prizesPage__text,
+    .rulesPage__text {
+        width: 280px;
+        font-size: 12px;
+        margin-left: 18px;
+    }
+
+    .eventPage__head,
+    .prizesPage__head,
+    .rulesPage__head {
+        font-size: 16px;
+    }
+
+    .eventPage__header,
+    .prizesPage__header,
+    .rulesPage__header {
+        font-size: 18px;
+    }
+}
